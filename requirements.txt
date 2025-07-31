@@ -1,0 +1,16 @@
+# 🚨 DANGEROUS APP REQUIREMENTS 🚨
+# Dependencies for the Pentester's Playground application
+
+# Core dependencies
+psutil>=5.9.0
+tkinter  # Usually comes with Python
+
+# Optional dependencies for enhanced functionality
+watchdog>=2.1.0  # For file system monitoring
+requests>=2.28.0  # For network operations
+scapy>=2.4.0  # For network packet manipulation (optional)
+
+# Development dependencies
+pytest>=7.0.0  # For testing
+black>=22.0.0  # For code formatting
+flake8>=5.0.0  # For linting 
